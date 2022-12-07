@@ -1,7 +1,7 @@
 /**
  * @name GlowCat
  * @author Knaughty
- * @version 0.0.1
+ * @version 0.0.2
  * @description ✨ A Lightweight Catppuccin coloured theme for discord ✨  
  * @source https://github.com/Kn4ughty/GlowCat
  **/
@@ -13,6 +13,7 @@
     --rosewater_hsl:        10,   58%,  90%;
     --flamingo_hsl:         0,    58%,  86%;
     --pink_hsl:             316,  74%,  85%;
+    --pink-darker_hsl:      316,  40%,  85%;
     --mauve_hsl:            267,  83%,  80%;
     --red_hsl:              351,  74%,  73%;
     --maroon_hsl:           355,  71%,  77%;
@@ -48,11 +49,13 @@
     --sidebar-colour: rgb(36, 36, 36);
 
     --avatar-area-box-shadow: 0px 0px 25px 7px rgba(245, 189, 230,0.6);
+    --avatar-area-background-colour: var(--black0);
     
     --rosewater: hsl(var(--rosewater_hsl));
     --flamingo: hsl(var(--flamingo_hsl));
     --mauve: hsl(var(--mauve_hsl));
     --pink: hsl(var(--pink_hsl));
+    --pink-darker: hsl(var(--pink-darker_hsl));
     --maroon: hsl(var(--maroon_hsl));
     --red: hsl(var(--red_hsl));
     --peach: hsl(var(--peach_hsl));
@@ -252,11 +255,6 @@
 }
 
 /* Selection */
-::-moz-selection {
-    color: var(--white) !important;
-    background: var(--black4) !important;
-}
-
 ::selection {
     color: var(--white) !important;
     background: var(--black4) !important;
@@ -265,19 +263,24 @@
 
 /* avarat area thing */
 .panels-3wFtMD {
-    background-color: var(--black0);
+    background-color: var(--avatar-area-background-colour);
     border-top-right-radius: 20px;
     box-shadow: var(--avatar-area-box-shadow);
     clip-path: polygon(100% -400%, 100% 100%, 0% 400%, 0% -400%);
 }
 
 /*Internal window properties*/
-.theme-dark #app-mount .layers-OrUESM {
-  margin: var(--window-margin);
-  box-shadow: var(--window-box-shadow);
-  overflow: hidden;
-  border-radius: var(--window-border-radius);
-  background: var(--window-colour);
-  backdrop-filter: blur(var(--window-blur)) !important;
+.layers-OrUESM {
+    margin: var(--window-margin);
+    box-shadow: var(--window-box-shadow);
+    overflow: hidden;
+    border-radius: var(--window-border-radius);
+    background: var(--window-colour);
+    backdrop-filter: blur(var(--window-blur)) !important;
 }
 
+
+/* Sever selector */
+.scroller-3X7KbA {
+    background-image: linear-gradient(var(--black2), var(--avatar-area-background-colour));
+}

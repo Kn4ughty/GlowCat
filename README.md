@@ -1,8 +1,5 @@
 ## Previews
-<details>
-<summary>Click to view!</summary>
 <img src="assets/Screenshot1.png"/>
-</details>
 
 ## Usage
 
