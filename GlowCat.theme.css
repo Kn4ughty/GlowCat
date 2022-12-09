@@ -1,7 +1,7 @@
 /**
  * @name GlowCat
  * @author Knaughty
- * @version 0.0.2
+ * @version 0.0.3
  * @description ✨ A Lightweight Catppuccin coloured theme for discord ✨  
  * @source https://github.com/Kn4ughty/GlowCat
  **/
@@ -109,8 +109,8 @@
     --interactive-active: var(--rosewater) !important;
     --scrollbar-thin-thumb: var(--black0) !important;
     --scrollbar-thin-track: transparent !important;
-    --scrollbar-auto-thumb: var(--black0) !important;
-    --scrollbar-auto-track: var(--black3) !important;
+    --scrollbar-auto-thumb: var(--black3) !important;
+    --scrollbar-auto-track: var(--black0) !important;
     --scrollbar-auto-scrollbar-color-thumb: var(--black3) !important;
     --scrollbar-auto-scrollbar-color-track: var(--black3) !important;
     --deprecated-store-bg: var(--black0) !important;
