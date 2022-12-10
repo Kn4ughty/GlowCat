@@ -3,6 +3,8 @@ This is theme designed to be lightweight and simple, preserving the orginal look
 
 This theme uses the [catppuccin](https://github.com/catppuccin/catppuccin) Macchiato colour pallet. 
 
+If you do decide to change/add anything (and you want to share), make a pull request ideally or make a issue if there is a bug somewhere. I am open to suggestions and am eager to improve the theme so suggest anything you want.
+
 ## Previews
 <img src="assets/Screenshot1.png"/>
 
