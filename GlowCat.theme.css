@@ -1,7 +1,7 @@
 /**
  * @name GlowCat
  * @author Knaughty
- * @version 1.0.0
+ * @version 1.0.1
  * @description ✨ A Lightweight Catppuccin coloured theme for discord ✨  
  * @source https://github.com/Kn4ughty/GlowCat
  **/
@@ -28,6 +28,7 @@
 
 
     /*                      H     S     L */
+    /*
     --rosewater_hsl:        10,   58%,  90%;
     --flamingo_hsl:         0,    58%,  86%;
     --pink_hsl:             316,  74%,  85%;
@@ -54,6 +55,36 @@
     --gray1_hsl:            274,  11%,  59%;
     --gray2_hsl:            285,  10%,  75%;
     --white_hsl:            220,  38%,  89%;
+    */
+    /*                  R    G    B */
+    --rosewater:        rgb(244, 219, 214);
+    --flamingo:         rgb(240, 198, 198);
+    --pink:             rgb(245, 189, 230);
+    --mauve:            rgb(198, 160, 246);
+    --red:              rgb(237, 135, 150);
+    --maroon:           rgb(238, 153, 160);
+    --peach:            rgb(245, 169, 127);
+    --yellow:           rgb(238, 212, 159);
+    --green:            rgb(166, 218, 149);
+    --teal:             rgb(139, 213, 202);
+    --sky:              rgb(145, 215, 227);
+    --sapphire:         rgb(125, 196, 228);
+    --blue_:            rgb(138, 173, 244);
+    --lavender:         rgb(183, 189, 248);
+    /* Not direct from theme 
+    --white:            rgb(141, 170, 227);
+    */
+    --gray0:            rgb(109, 108, 117);
+    --gray1:            rgb(143, 134, 150);
+    --gray2:            rgb(186, 172, 191);
+    
+    --white:            rgb(202, 211, 245);
+    --black0:           rgb(24,   25,  38);
+    --black1:           rgb(30,   32,  48);
+    --black2:           rgb(36,   39,  58);
+    --black3:           rgb(54,   58,  79);
+    --black4:           rgb(91,   96, 120);
+
 }
 
 :root {
@@ -72,7 +103,7 @@
 
     --server-selector-gradient-top: var(--black1);
     --server-selector-gradient-bottom: var(--avatar-area-background-colour);
-    
+    /*
     --rosewater: hsl(var(--rosewater_hsl));
     --flamingo: hsl(var(--flamingo_hsl));
     --mauve: hsl(var(--mauve_hsl));
@@ -100,6 +131,7 @@
     --white: hsl(var(--white_hsl));
     --mauve-o10: hsl(var(--mauve_hsl), .1);
     --pink-o20: hsl(var(--pink_hsl), .2);
+    */
 }
 
 .theme-dark {
