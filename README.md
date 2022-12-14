@@ -1,5 +1,5 @@
 ## About
-This is theme designed to be lightweight and simple, preserving the orginal look of discord while adding new graphical effects and a smoother colour pallet. With perfomance as the primary goal, this theme should not impact your discord speed while improving the experience. Effort has been taken to make the theme easily customisable, and feel free to edit anything you please.
+This is a theme designed to be lightweight and simple, preserving the orginal look of discord while adding new graphical effects and a smoother colour pallet. With perfomance as the primary goal, this theme should not impact your discord speed while improving the experience. Effort has been taken to make the theme easily customisable, and feel free to edit anything you please.
 
 This theme uses the [catppuccin](https://github.com/catppuccin/catppuccin) Macchiato colour pallet. 
 
