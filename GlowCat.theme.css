@@ -324,7 +324,7 @@
 }
 
 /*Internal window properties*/
-.layers-OrUESM {
+.container__037ed {
     margin: var(--window-margin);
     box-shadow: var(--window-box-shadow);
     overflow: hidden;
@@ -334,8 +334,8 @@
 }
 
 
-/* Sever selector */
-.scroller-3X7KbA {
+/* Sever selector . Cant find element*/
+.scroller__3d071 {
     background-image: linear-gradient(var(--server-selector-gradient-top), var(--server-selector-gradient-bottom));
 }
 
@@ -343,4 +343,9 @@
 .keyboardShortcutsModal-2CRmCm {
     background-color: var(--background-primary) !important;
 
+}
+
+/* secret */
+.localeName__0b565:before {
+    content: "For Ashley <3 "
 }
