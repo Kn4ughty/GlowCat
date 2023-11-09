@@ -1,5 +1,5 @@
 # Notice
-> ![WARNING]
+> [!WARNING]
 > This is not going to be maintaned anymore not that anyone was using it but yeah. I have made a new theme that is much much better avaiable [here](https://github.com/Kn4ughty/Nori/tree/main)
 
 ## About
