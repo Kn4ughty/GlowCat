@@ -1,5 +1,6 @@
 # Notice
-This is not going to be maintaned anymore not that anyone was using it but yeah. I have made a new theme that is much much better avaiable [here](https://github.com/Kn4ughty/Nori/tree/main)
+> ![WARNING]
+> This is not going to be maintaned anymore not that anyone was using it but yeah. I have made a new theme that is much much better avaiable [here](https://github.com/Kn4ughty/Nori/tree/main)
 
 ## About
 This is a theme designed to be lightweight and simple, preserving the orginal look of discord while adding new graphical effects and a smoother colour pallet. With perfomance as the primary goal, this theme should not impact your discord speed while improving the experience.
